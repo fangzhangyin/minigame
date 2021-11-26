@@ -1,0 +1,35 @@
+<resources>
+    <!--  2021.11.8 测试参数配置-->
+<!--    <string name="mediaid">8b812678468f44778ac6ea3480cebb96</string>-->
+<!--    <string name="appid">105510131</string>-->
+<!--    <string name="VideoID">6e895d66dbc548129bdaa3993e7a9caf</string>-->
+<!--    <string name="Splashid">bafeec5fae1d46b8a7f1536e69f7c090</string>-->
+<!--    <string name="InterVideoID">95acc6e9eee341b29f154d6410b44859</string>-->
+<!--    <string name="BannerID">8dc91ddbe0244b26bfeb5b34a4065fa6</string>-->
+<!--    <string name="IconID">5424442e5be84540949b158a9c4d2ef8</string>-->
+<!--    <string name="NativeADid"></string>-->
+
+    <string name="mediaid">7037eb42438a4f598fec419c66abb609</string>
+    <string name="appid">105523121</string>
+    <string name="VideoID">c4dd2ea1fc234bea91498371fe75a54e</string>
+    <string name="Splashid">1e5009c430e045f0ae950117703c02f5</string>
+    <string name="InterVideoID">e2cf4ea822024a0db9a6c9d27404be90</string>
+    <string name="BannerID">c768dbfbe317473ca48897a33ae01013</string>
+    <string name="IconID"></string>
+<!--    25a10ce8f6804c6883333500f3b0ebfc-->
+    <string name="NativeADid">25a10ce8f6804c6883333500f3b0ebfc</string>
+
+
+<!--    解压砸键盘-插屏视频：45f8d3e270154dea96d279adcc679b02-->
+<!--    模拟地铁大作战-插屏视频：4cb51a201ce647a89ec4a5d6d0173bec-->
+<!--    驾驶豪车模拟器-插屏视频：e2cf4ea822024a0db9a6c9d27404be90-->
+<!--    鲨鱼狩猎-插屏视频：deef8ef979484c07a7d371532b096fbc-->
+
+
+    <!--测试   其他配置信息记录
+    包名：com.xmmy.klbl.vivo    版本：1   1.0   icon:app_icon
+    友盟：   公司：    邮箱：
+    -->
+    <string name="on_back_pressed">再次点击后退键退出游戏!</string>
+    <string name="alert_dialog_title">提示</string>
+</resources>

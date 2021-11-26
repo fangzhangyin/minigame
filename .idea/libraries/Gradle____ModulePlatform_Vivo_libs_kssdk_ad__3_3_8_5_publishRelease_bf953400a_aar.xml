@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: ./ModulePlatform_Vivo/libs/kssdk-ad--3.3.8.5-publishRelease-bf953400a.aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fcb9eedd6eac8bb0697520aeee38044/jetified-kssdk-ad--3.3.8.5-publishRelease-bf953400a/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fcb9eedd6eac8bb0697520aeee38044/jetified-kssdk-ad--3.3.8.5-publishRelease-bf953400a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fcb9eedd6eac8bb0697520aeee38044/jetified-kssdk-ad--3.3.8.5-publishRelease-bf953400a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2fcb9eedd6eac8bb0697520aeee38044/jetified-kssdk-ad--3.3.8.5-publishRelease-bf953400a/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

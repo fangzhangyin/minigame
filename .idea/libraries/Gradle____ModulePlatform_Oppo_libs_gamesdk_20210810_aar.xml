@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: ./ModulePlatform_Oppo/libs/gamesdk-20210810.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6fecd599284c67401367b686a715ef3/jetified-gamesdk-20210810/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6fecd599284c67401367b686a715ef3/jetified-gamesdk-20210810/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6fecd599284c67401367b686a715ef3/jetified-gamesdk-20210810/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6fecd599284c67401367b686a715ef3/jetified-gamesdk-20210810/jars/libs/MspFileProvider.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6fecd599284c67401367b686a715ef3/jetified-gamesdk-20210810/jars/libs/plugin-framework-sdk-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

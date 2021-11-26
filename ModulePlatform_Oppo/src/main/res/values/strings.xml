@@ -1,0 +1,85 @@
+<resources>
+    <string name="appid">30681039</string>
+    <string name="appSecret">3609e1ee2edf480d8c1f2fda56ebcb87</string>
+    <string name="NativeADid">417579</string>
+    <string name="VideoID"></string>
+    <string name="bannerid">419437</string>
+    <string name="Splashid">417574</string>
+    <string name="InterVideoID">417582</string>
+    <!--  2021.11.20 驾驶豪车模拟器 参数配置
+ -->
+    <!--驾驶豪车模拟器  其他配置信息记录
+    包名：com.xmhl.jshcmnq.nearme.gamecenter  版本：1   1.0   icon:icon01   appkey : ff61b98f614944e2b6c764b76401694c
+    友盟：6195f6fbbc89fd13513c1dbb   公司：厦门幻乐时空科技有限公司   邮箱：2128875486@qq.com
+    -->
+
+    <!--  2021.11.18 鲨鱼猎杀参数配置
+    <string name="appid">30673179</string>
+    <string name="appSecret">e2c3e5e69c0a48ae89c88a30ef427b9b</string>
+    <string name="NativeADid">415869</string>
+    <string name="VideoID"></string>
+    <string name="Splashid">415868</string>
+    <string name="InterVideoID">415867</string>  -->
+    <!--鲨鱼猎杀 其他配置信息记录
+    包名： 版本：1   1.0     icon:app_icon    appkey : 1f2a0d4220c14b6aa3530165bfe9c9ad
+    友盟： 公司：邮箱：
+    -->
+
+    <!--  2021.11.8 测试参数配置-->
+<!--    <string name="appid">30644601</string>-->
+<!--    <string name="appSecret">fb34f522da3a4dcab83bd857151241e1</string>-->
+<!--    <string name="NativeADid">396823</string>-->
+<!--    <string name="VideoID">399035</string>-->
+<!--    <string name="Splashid">testq6zq98hecj</string>-->
+<!--    <string name="bannerid"></string>-->
+<!--    <string name="InterVideoID"></string>-->
+    <!--测试   其他配置信息记录
+    包名：  版本：1   1.0     icon:app_icon      appkey : 8cc670cc1bec493d974e8a12cdcde4c0
+    友盟： 公司：邮箱：
+    -->
+    <string name="on_back_pressed">再次点击后退键退出游戏!</string>
+    <string name="alert_dialog_title">提示</string>
+    <string name="banner_bn">横幅广告</string>
+    <string name="interstitial_bn">插屏广告</string>
+    <string name="interstitial_video_bn">插屏视频广告</string>
+    <string name="mix_bn">混合场景</string>
+    <string name="contentad_btn">资讯流广告</string>
+    <string name="load_ad_bn">加载</string>
+    <string name="destroy_ad_bn">销毁</string>
+    <string name="show_ad_bn">展示</string>
+    <string name="native_bn">原生广告</string>
+    <string name="native_advance_bn">原生advance广告</string>
+    <string name="native_512X512_text_icon_bn">512X512图文下载类</string>
+    <string name="native_640X320_text_img_bn">640X320图文展示类</string>
+    <string name="native_320X210_text_img_bn">320X210图文展示类</string>
+    <string name="native_320X210_group_text_img_bn">320X210组图展示类</string>
+    <!--addIRewardVideoWidgetListener 2018-04-09-->
+    <string name="native_templet_bn">原生模板广告</string>
+    <string name="native_templet_640X320_normal_bn">普通640X320图文混合</string>
+    <string name="native_templet_320X210_normal_bn">普通320X210图文混合</string>
+    <string name="native_templet_group_320X210_normal_bn">普通3张320X210图文混合</string>
+
+    <string name="native_templet_640X320_recycler_bn">列表640X320图文混合</string>
+    <string name="native_templet_320X210_recycler_bn">列表320X210图文混合</string>
+    <string name="native_templet_group_320X210_recycler_bn">列表3张320X210图文混合</string>
+
+    <string name="native_templet_ad_width">宽【单位：dp】：</string>
+    <string name="native_templet_ad_height">高【单位：dp】：</string>
+    <!--addIRewardVideoWidgetListener 2018-04-15-->
+    <string name="reward_video_bn">激励视频广告</string>
+    <string name="req_video_bn">闯关失败，获取免费复活机会</string>
+    <!--add 2018-10-18-->
+    <string name="native_reward_bn">原生激励广告</string>
+    <string name="native_reward_normal_install_bn">普通下载完成激励</string>
+    <string name="native_reward_normal_launch_bn">普通打开完成激励</string>
+    <string name="native_reward_recycler_view_install_bn">列表下载完成激励</string>
+    <string name="native_reward_recycler_view_launch_bn">列表打开完成激励</string>
+
+    <string name="content_ad_loading_text">加载中...</string>
+    <string name="content_ad_refreshing_text">刷新中...</string>
+    <string name="content_ad_pull_refresh_text">下拉刷新</string>
+    <string name="content_ad_refresh_release_text">释放刷新</string>
+
+    <string name="native_video_text_bn">视频展示类</string>
+    <string name="native_video_text_list_bn">视频列表展示类</string>
+</resources>

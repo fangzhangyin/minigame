@@ -1,0 +1,4 @@
+include ':ModulePlatform_Oppo'
+include ':ModulePlatform_Vivo'
+include ':ModulePlatform_Huawei'
+include ':ModuleBase'

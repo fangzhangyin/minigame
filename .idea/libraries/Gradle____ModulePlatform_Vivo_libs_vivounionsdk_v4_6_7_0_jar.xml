@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./ModulePlatform_Vivo/libs/vivounionsdk_v4.6.7.0.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ModulePlatform_Vivo/libs/vivounionsdk_v4.6.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

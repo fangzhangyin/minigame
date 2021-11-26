@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ./ModulePlatform_Oppo/libs/mobad_normal_pub_391008_2021_06_02.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/44d241b57c46894f3aced15cf77eb386/jetified-mobad_normal_pub_391008_2021_06_02/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/44d241b57c46894f3aced15cf77eb386/jetified-mobad_normal_pub_391008_2021_06_02/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/44d241b57c46894f3aced15cf77eb386/jetified-mobad_normal_pub_391008_2021_06_02/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/44d241b57c46894f3aced15cf77eb386/jetified-mobad_normal_pub_391008_2021_06_02/jars/libs/r-classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

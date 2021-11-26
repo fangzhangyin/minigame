@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./ModulePlatform_Vivo/libs/secboxsdk-v1.0.0.0-4836a5a.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49a9c18e628ccafdd1a3a0a950406c30/jetified-secboxsdk-v1.0.0.0-4836a5a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49a9c18e628ccafdd1a3a0a950406c30/jetified-secboxsdk-v1.0.0.0-4836a5a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/49a9c18e628ccafdd1a3a0a950406c30/jetified-secboxsdk-v1.0.0.0-4836a5a/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./ModulePlatform_Vivo/libs/msa_mdid_1.0.13.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bde43142e8a5c340aaa89dcb5b71743c/jetified-msa_mdid_1.0.13/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bde43142e8a5c340aaa89dcb5b71743c/jetified-msa_mdid_1.0.13/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bde43142e8a5c340aaa89dcb5b71743c/jetified-msa_mdid_1.0.13/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./ModulePlatform_Vivo/libs/open_ad_sdk.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9fc34996ff1823c416a956da3978fd36/jetified-open_ad_sdk/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9fc34996ff1823c416a956da3978fd36/jetified-open_ad_sdk/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9fc34996ff1823c416a956da3978fd36/jetified-open_ad_sdk/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

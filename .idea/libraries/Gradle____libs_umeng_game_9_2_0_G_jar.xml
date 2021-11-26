@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/umeng-game-9.2.0+G.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/umeng-game-9.2.0+G.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

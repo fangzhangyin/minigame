@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hzklt.moduleplatform_vivo">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/> -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 判断游戏是否是在主进程初始化，避免初始化进程错误导致功能不可用 -->
+    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 联运SDK跳转游戏中心 -->
+    <uses-permission android:name="vivo.game.permission.OPEN_JUMP_INTENTS" />
+
+    <application>
+        <!-- 旧版激励视频接口，有接入旧版激励视频的则需要配置 -->
+        <activity
+            android:name="com.vivo.mobilead.video.RewardVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true" /> <!-- 插屏视频接口，有接入插屏视频的则需要配置 -->
+        <activity
+            android:name="com.vivo.mobilead.unified.interstitial.InterstitialVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true" /> <!-- 新版激励视频接口，有接入新版激励视频的则需要配置 -->
+        <activity
+            android:name="com.vivo.mobilead.unified.reward.RewardVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true" /> <!-- vivo sdk的Activity -->
+
+        <activity
+            android:name="com.hzklt.moduleplatform_vivo.VIVOAD.VivoSplashView"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name="com.vivo.unionsdk.ui.UnionActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"
+            tools:ignore="AppLinkUrlError">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="union.vivo.com"
+                    android:path="/openjump"
+                    android:scheme="vivounion" />
+            </intent-filter>
+        </activity>
+        <!-- vivo sdk componets end -->
+        <provider
+            android:name="com.vivo.mobilead.manager.VivoContentProvider"
+            android:authorities="${applicationId}.vivoprovider"
+            android:exported="false" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="vivo_ad_version_code"
+            android:value="5220" />
+        <meta-data
+            android:name="vivo_union_sdk"
+            android:value="4.6.7.0" />
+    </application>
+</manifest>

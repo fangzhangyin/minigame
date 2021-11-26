@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.openalliance.ad.views.PPSNativeView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/ad_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lineSpacingExtra="3.5dp"
+            android:maxLines="2"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/ad_img_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:id="@+id/ad_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/ad_tag_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingBottom="1dp"
+                android:paddingEnd="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingStart="4dp"
+                android:paddingTop="1dp"
+                android:text="广告"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/ad_label_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/ad_tag_tv"
+                android:layout_toRightOf="@+id/ad_tag_tv"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/unlike_iv"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_unlike" />
+
+            <com.huawei.openalliance.ad.views.AppDownloadButton xmlns:progress_button="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ad_download_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toLeftOf="@id/unlike_iv"
+                android:layout_toStartOf="@id/unlike_iv"
+                android:paddingEnd="12dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingStart="12dp"
+                android:visibility="gone"
+                progress_button:hiad_fixedWidth="false"
+                progress_button:hiad_fontFamily="HwChinese-medium"
+                progress_button:hiad_maxWidth="96dp"
+                progress_button:hiad_minWidth="48dp"
+                progress_button:hiad_textSize="11sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.huawei.openalliance.ad.views.PPSNativeView>

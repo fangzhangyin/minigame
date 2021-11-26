@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./ModulePlatform_Oppo/libs/universal-image-loader-1.9.5.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ModulePlatform_Oppo/libs/universal-image-loader-1.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:id="@+id/base_cancelBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="38dip"
+        android:layout_marginRight="8dip"
+        android:layout_weight="1"
+        android:text="@string/cancel"
+        android:textColor="#cd000000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/base_okBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="38dip"
+        android:layout_weight="1"
+        android:text="@string/ok"
+        android:textColor="#cd000000"
+        android:textSize="14sp" />
+</LinearLayout>
